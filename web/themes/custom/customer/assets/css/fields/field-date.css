@@ -1,15 +1,13 @@
-/* mobile */
-.field-date{
-    display:inline-block;
-    font-weight: 700;
-    margin-bottom: 1.5em;
+.field-date {
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 1.5em;
 }
-
 
 /* tablette-desktop */
-@media screen and (min-width: 640px){
-.field-date{
-    display:inline-block;
+@media screen and (min-width: 641px) {
+  .field-date {
+    display: inline-block;
     font-weight: 700;
-}
+  }
 }

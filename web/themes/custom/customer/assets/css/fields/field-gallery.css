@@ -1,24 +1,22 @@
-.field-gallery li{
-    list-style: none;
-    margin-bottom: 2em;
+.field-gallery li {
+  list-style: none;
+  margin-bottom: 2em;
 }
-
-
-
-
 
 /* tablette et desktop */
-@media screen and (min-width: 640px){
-.field-gallery {
-    padding:2em;
-    border-bottom: 1px solid grey;    
-}
-.field-gallery li{
+@media screen and (min-width: 641px) {
+  .field-gallery {
+    padding: 2em;
+    border-bottom: 1px solid grey;
+  }
+
+  .field-gallery li {
     list-style: none;
     margin-bottom: 2em;
-}
-.field-gallery li img{
-    display:block;    
-}
+  }
+
+  .field-gallery li img {
+    display: block;
+  }
 
 }

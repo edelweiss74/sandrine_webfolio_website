@@ -1,16 +1,15 @@
-/* mobile */
-.field-link a{
-    text-decoration: none;
-    color:rgb(250, 74, 93);
-    margin-bottom: 3.5em;
-    font-size: 1.4rem;
+.field-link a {
+  text-decoration: none;
+  color: rgb(250, 74, 93);
+  margin-bottom: 3.5em;
+  font-size: 1.4rem;
 }
 
 
 /* tablette-desktop */
-@media screen and (min-width: 640px){
-.field-link a{
+@media screen and (min-width: 641px) {
+  .field-link a {
     text-decoration: none;
-    color:rgb(250, 74, 93);
-}
+    color: rgb(250, 74, 93);
+  }
 }

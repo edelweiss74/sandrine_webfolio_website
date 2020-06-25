@@ -1,29 +1,29 @@
 {% if content %}
-<article class="home">
+  <article class="home">
 
     <div class="layout">
-        <div class="picture-header">
-            {% if content.picture %}
-                <div class="layout-picture">
-                    {{ content.picture }}
-                </div>
-            {% endif %}
+      <div class="picture-header">
+        {% if content.picture %}
+          <div class="layout-picture">
+            {{ content.picture }}
+          </div>
+        {% endif %}
 
-            {% if content.header %}
-                <div class="layout-header">
-                    {{ content.header }}
-                </div>
-            {% endif %}
+        {% if content.header %}
+          <div class="layout-header">
+            {{ content.header }}
+          </div>
+        {% endif %}
+      </div>
+
+      {% if content.content %}
+        <div class="layout-content">
+          {{ content.content }}
         </div>
-           
-            {% if content.content %}
-                <div class="layout-content">
-                    {{ content.content }}
-                </div>
-            {% endif %}
-                  
+      {% endif %}
+
 
     </div>
-</article>
+  </article>
 
 {% endif %}

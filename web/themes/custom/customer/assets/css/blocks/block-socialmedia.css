@@ -1,0 +1,11 @@
+#block-socialmedia .field-body ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+#block-socialmedia .field-body ul li {
+  margin: 1em;
+  flex: 1;
+  text-align: center;
+}

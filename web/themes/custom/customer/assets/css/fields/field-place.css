@@ -1,14 +1,5 @@
-/* mobile */
-.field-place{
-    display:inline-block;
-    font-weight: 700;
-    margin-bottom: 1.5em;
-}
-
-/* tablette-desktop*/
-@media screen and (min-width: 640px){
-.field-place{
-    display:inline-block;
-    font-weight: 700;
-}
+.field-place {
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 1.5em;
 }
