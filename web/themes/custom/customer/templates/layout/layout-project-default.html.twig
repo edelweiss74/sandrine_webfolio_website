@@ -1,0 +1,48 @@
+{% if content %}
+<article class="project">
+
+    <div class="layout">
+        <div class="picture-header">
+            {% if content.picture %}
+                <div class="layout-picture">
+                    {{ content.picture }}
+            </div>
+            {% endif %}
+
+            {% if content.header %}
+                <div class="layout-header">
+                    {{ content.header }}
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="layout-title">
+            <h2 class="field-title-2">
+                Description
+            </h2>
+        </div>
+
+        <div class="layout-content">
+            {% if content.content %}
+                <div class="layout-content-left">
+                    {{ content.content }}
+                </div>
+            {% endif %}
+
+            {% if content.contentsecond %}
+                <div class="layout-content-right">
+                    {{ content.contentsecond }}
+                </div>
+            {% endif %}
+        </div>
+
+        {% if content.gallery %}
+            <div class="layout-gallery">
+                {{ content.gallery }}
+            </div>
+        {% endif %}
+
+    </div>
+</article>
+
+{% endif %}

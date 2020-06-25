@@ -1,0 +1,22 @@
+/* mobile */
+#block-contact{
+    background-image: url(../../images/fond-contact.jpg);
+     padding: 2.5em;
+     margin-bottom: 3em;
+}    
+
+
+/* tablette */
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+#block-contact{
+    margin-bottom: 3em;
+   
+}   
+}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+ #block-contact{
+     margin-bottom: 3em;
+ }  
+}

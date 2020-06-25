@@ -1,0 +1,14 @@
+uuid: cd619196-3f55-4659-b654-d87bb047ae66
+name: 'Sandrine Hennebert'
+mail: shennebert979@gmail.com
+slogan: 'Graphiste - designer web'
+page:
+  403: ''
+  404: ''
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

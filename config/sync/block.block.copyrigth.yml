@@ -1,0 +1,25 @@
+uuid: ae937dbb-b242-4f8b-a2f4-a3893bb672d7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:44150087-8fb6-4780-baff-99e87c8aea02'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: copyrigth
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:44150087-8fb6-4780-baff-99e87c8aea02'
+settings:
+  id: 'block_content:44150087-8fb6-4780-baff-99e87c8aea02'
+  label: Copyrigth
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

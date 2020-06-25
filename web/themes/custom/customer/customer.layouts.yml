@@ -1,0 +1,48 @@
+layout-homepage-default:
+  label: Homepage default - Display
+  category: Customer
+  path: templates/layout
+  template: layout-homepage-default
+  regions:
+    picture:
+      label: Picture
+    header:
+      label: Header
+    content:
+      label: Content 
+    
+    
+
+layout-project-default:
+  label: Project default - Display
+  category: Customer
+  path: templates/layout
+  template: layout-project-default
+  regions:
+    picture:
+      label: Picture
+    header:
+      label: Header
+    content:
+      label: Content First
+    contentsecond:
+      label: Content second
+    gallery:
+      label: Gallery
+      
+layout-about-default:
+  label: About default - Display
+  category: Customer
+  path: templates/layout
+  template: layout-about-default
+  regions:
+    picture:
+      label: Picture
+    header:
+      label: Header
+    content:
+      label: Content First
+    contentsecond:
+      label: Content second
+    pasion:
+      label: Pasion        

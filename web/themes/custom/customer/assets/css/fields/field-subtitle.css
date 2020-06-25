@@ -1,0 +1,23 @@
+/* mobile */
+.field-subtitle{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding:0.5em 0;
+    margin: 0.5em 0;
+}
+
+/* tablette-desktop*/
+@media screen and (min-width: 640px){
+.field-subtitle{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding:0.5em 0;
+    margin: 0.5em 0;
+}
+}

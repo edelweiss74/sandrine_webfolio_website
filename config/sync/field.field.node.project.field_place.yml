@@ -1,0 +1,19 @@
+uuid: 5167d31c-29e7-43d8-a8c4-c4a86aa57f0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_place
+    - node.type.project
+id: node.project.field_place
+field_name: field_place
+entity_type: node
+bundle: project
+label: Place
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

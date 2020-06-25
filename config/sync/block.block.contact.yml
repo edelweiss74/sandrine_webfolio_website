@@ -1,0 +1,33 @@
+uuid: e305a450-2310-424a-8587-07d07c32f9b2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:43713686-ef8d-4dff-a000-39828e112541'
+  module:
+    - block_content
+    - node
+  theme:
+    - customer
+id: contact
+theme: customer
+region: prefooter
+weight: 0
+provider: null
+plugin: 'block_content:43713686-ef8d-4dff-a000-39828e112541'
+settings:
+  id: 'block_content:43713686-ef8d-4dff-a000-39828e112541'
+  label: contact
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      homepage: homepage
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

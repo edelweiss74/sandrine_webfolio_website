@@ -1,0 +1,17 @@
+name: Custom Theme
+type: theme
+base theme: stable
+description: ‘A great theme for Web Designers.’
+package: Custom
+core: 8.x
+# Region metadata.
+regions:
+  header: 'Header'
+  help: 'Help'
+  content: 'Content'
+  list: 'List'
+  prefooter: 'Pre Footer'
+  footer: 'Footer'
+
+libraries:
+  - customer/global-styling  

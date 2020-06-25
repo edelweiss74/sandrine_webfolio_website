@@ -1,0 +1,19 @@
+uuid: f54e41a4-26b5-4a27-a745-d03805acb130
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subtitle
+    - node.type.homepage
+id: node.homepage.field_subtitle
+field_name: field_subtitle
+entity_type: node
+bundle: homepage
+label: Subtitle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

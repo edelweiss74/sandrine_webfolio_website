@@ -1,0 +1,14 @@
+.field-body2 h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+   
+}
+
+@media screen and (min-width: 1200px){
+.about .field-body2 h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    text-align: left;
+}
+
+}

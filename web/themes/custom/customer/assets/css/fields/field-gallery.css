@@ -1,0 +1,14 @@
+.field-gallery {
+    padding:2em;
+    border-bottom: 1px solid grey;    
+}
+
+.field-gallery li{
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+.field-gallery li img{
+    display:block;    
+}
+

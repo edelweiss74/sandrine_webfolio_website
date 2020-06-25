@@ -1,0 +1,25 @@
+uuid: 954d24bf-bc82-4661-90fb-9205fb44244e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:44150087-8fb6-4780-baff-99e87c8aea02'
+  module:
+    - block_content
+  theme:
+    - customer
+id: copyright
+theme: customer
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:44150087-8fb6-4780-baff-99e87c8aea02'
+settings:
+  id: 'block_content:44150087-8fb6-4780-baff-99e87c8aea02'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,19 @@
+.field-title-1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color:rgb(250, 74, 93);   
+    }
+@media screen and (min-width: 640px){
+.field-title-1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color:rgb(250, 74, 93);    
+   }
+.layout-content .field-title1{
+    font-family: 'Dancing Script', cursive;
+}
+}
+
+

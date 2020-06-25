@@ -1,0 +1,91 @@
+uuid: 1f657b78-c2c3-4f3d-86e6-ab0b8308316b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage.body
+    - field.field.node.homepage.field_body3
+    - field.field.node.homepage.field_link
+    - field.field.node.homepage.field_link2
+    - field.field.node.homepage.field_picture
+    - field.field.node.homepage.field_subtitle
+    - node.type.homepage
+  module:
+    - ds
+    - image
+    - link
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: layout-homepage-default
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      picture:
+        - field_picture
+      header:
+        - node_title
+        - field_subtitle
+        - body
+        - field_link
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: ''
+          class: ''
+          link: false
+id: node.homepage.default
+targetEntityType: node
+bundle: homepage
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: header
+  field_link:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: header
+  field_picture:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: picture
+  field_subtitle:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: header
+hidden:
+  field_body3: true
+  field_link2: true
+  langcode: true
+  links: true

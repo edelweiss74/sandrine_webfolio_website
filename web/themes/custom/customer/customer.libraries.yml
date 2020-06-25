@@ -1,0 +1,8 @@
+global-styling:
+  version: 1.0
+  css:
+    theme:
+      assets/css/global.css: {}
+  js:
+      assets/js/functions.js: {}
+

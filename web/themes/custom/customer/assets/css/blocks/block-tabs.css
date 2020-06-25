@@ -1,0 +1,54 @@
+#block-tabs {
+    background-color: rgb(248, 66, 136);
+    border-bottom: 1em black;           
+}
+
+#block-tabs > ul {
+    display:flex;
+    list-style: none;
+    justify-content: center;
+      
+}
+#block-tabs > ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    background-color: beige;
+    margin: 0.5em;
+   
+}
+
+#block-tabs > ul li a.is-active {
+    color: white;
+    background-color: white;
+}
+
+
+
+/* tablette */
+@media screen and (min-width: 640px) and (max-width: 1200px){
+#block-tabs {
+    background-color: rgb(185, 104, 148);
+    display:flex;
+    align-items: center;   
+}
+}
+
+/* destop */
+@media screen and (min-width: 1200px){
+#block-tabs {
+    background-color: rgb(233, 204, 221);
+   }
+
+#block-tabs > ul {
+    display:flex;
+    list-style: none;
+}
+#block-tabs > ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    background-color: beige;
+}
+
+}

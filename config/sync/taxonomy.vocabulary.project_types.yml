@@ -1,0 +1,8 @@
+uuid: f7b1bc97-37d9-4280-bd9e-0d9eb32084bd
+langcode: en
+status: true
+dependencies: {  }
+name: 'Project types'
+vid: project_types
+description: ''
+weight: 0

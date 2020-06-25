@@ -1,0 +1,28 @@
+uuid: ada1983b-f6aa-4682-88e1-6da93dd4c082
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link2
+    - node.type.homepage
+  module:
+    - link
+id: node.homepage.field_link2
+field_name: field_link2
+entity_type: node
+bundle: homepage
+label: link
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:#'
+    title: 'Contactez-moi !'
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,60 @@
+#block-branding{
+    background-color: rgb(253, 253, 253);
+    display:flex;
+    align-items: center;       
+}
+#block-banding a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+#block-branding a img{
+height:3em;
+display:block;
+width:auto;
+margin-right: 2em; 
+}
+
+/* tablette */
+@media screen and (min-width: 640px) and (max-width: 1200px){
+#block-branding{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    align-items: center;   
+}
+#block-banding a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+#block-branding a img{
+height:3em;
+display:block;
+width:auto;
+margin-right: 2em; 
+}
+}
+
+
+/* destop */
+@media screen and (min-width: 1200px){
+#block-branding{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    align-items: center;       
+}
+#block-banding a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+#block-branding a img{
+height:3em;
+display:block;
+width:auto;
+margin-right: 2em; 
+}
+
+}

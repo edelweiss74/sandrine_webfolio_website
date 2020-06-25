@@ -1,0 +1,97 @@
+/* header */
+.about .layout .picture-header .layout-header{
+    background-color: rgb(215, 215, 215);
+    margin-bottom: 2em; 
+    padding: 1.5em 0.75em;        
+}
+/* savoir */
+.about .layout-content{
+    padding:1em;   
+    margin-bottom: 2em;
+}
+/* passion */
+.about .layout-pasion{
+    background-color: rgb(211, 211, 211);
+   
+}
+.about .layout-pasion h3{
+    line-height: 1.5em;
+}
+
+/* tablette */
+@media screen and (min-width: 640px) and (max-width: 1199px){
+/* header */
+.about .layout .picture-header{
+    display: flex;
+    margin-bottom: 3em;
+}
+.about .layout .picture-header .layout-picture{
+    flex:1;
+}
+.about .layout .picture-header .layout-header{
+    flex:1;
+    margin-top: 1em;
+    background-color: rgb(211, 211, 211);   
+    padding: 2em;
+    z-index: 1;
+}
+/* savoir */
+.about .layout-content{
+    display:flex;
+}
+.about .layout-content .layout-content-left{
+    flex: 1;    
+    padding:1em;
+}
+.about .layout-content .layout-content-right{
+    flex: 1;
+    padding:1em;
+}
+/* passion */
+.about .layout-pasion{
+    background-color: rgb(214, 214, 214);
+}
+}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+ /* header */
+.about .layout .picture-header{
+    display: flex;   
+}
+.about .layout .picture-header .layout-picture{
+    flex:1;
+}
+.about .layout .picture-header .layout-header{
+    flex:1;    
+    background-color: rgb(211, 211, 211);
+    height: fit-content;
+    padding: 2em;
+    margin-top: 10em;
+    width: 500px;
+    z-index: 1;   
+}
+/* savoir */
+.about .layout-content{
+    display:flex;
+    margin:0 2.5em;   
+}
+.about .layout-content .layout-content-left{
+    flex: 1;
+    padding:1em;   
+}
+.about .layout-content .layout-content-right{
+    flex: 1;
+    padding:1em;        
+}
+/* passion */
+.about .layout-pasion{
+    background-color: rgb(212, 212, 212);
+    padding: 2em 0;
+    margin-bottom:4em;   
+}
+.about .layout-pasion h3{
+    padding: 0 4em;    
+    line-height: 1.5em;
+}
+}

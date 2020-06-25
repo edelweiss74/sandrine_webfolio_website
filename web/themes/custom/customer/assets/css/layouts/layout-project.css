@@ -1,0 +1,47 @@
+/* header */
+.poject .layout .picture-header .layout-header{
+    background-color: rgb(211, 211, 211);
+    margin:0 2.5em;
+    padding: 2em;      
+}
+
+.project .layout-content{
+    background-color: rgb(255, 255, 255);
+    padding:1em;
+}
+
+
+/* tablette */
+@media screen and (min-width: 640px) and (max-width: 1200px){
+.project .layout-content{
+    display:flex;
+}
+.project .layout-content .layout-content-left{
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    padding:1em;
+}
+.project .layout-content .layout-content-right{
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    padding:1em;
+}
+}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+.project .layout-content{
+    display:flex;
+}
+.project .layout-content .layout-content-left{
+    flex: 1;
+    padding:1em;
+   
+}
+.project .layout-content .layout-content-right{
+    flex: 1;
+    padding:1em;
+        
+}
+
+}
