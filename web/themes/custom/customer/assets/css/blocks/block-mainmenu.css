@@ -1,0 +1,27 @@
+.region-header .region{
+    display: flex;
+    align-items: center;
+}
+#block-mainmenu{
+    flex:1;            
+}
+#block-mainmenu ul{
+    display:flex;                 
+}
+#block-mainmenu ul li {
+    list-style: none;
+    padding: 0.5em; 
+            
+}
+#block-mainmenu ul li a{
+    text-decoration: none;
+    color:black; 
+}
+#block-mainmenu ul li a:active{
+    text-decoration: none;
+    color: rgb(250, 74, 93); 
+}
+#block-mainmenu ul li a:visited{
+    text-decoration: none;
+    color: rgb(250, 74, 93); 
+}

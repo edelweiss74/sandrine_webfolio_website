@@ -17,10 +17,12 @@
 
 /* blocks */
 @import "blocks/block-branding.css";
+@import "blocks/block-mainmenu.css";
 @import "blocks/block-contact.css";
 @import "blocks/block-copyright.css";
 @import "blocks/block-socialmedia.css";
 @import "blocks/block-tabs.css";
+
 
 /* layout */
 @import "layouts/layout.css";

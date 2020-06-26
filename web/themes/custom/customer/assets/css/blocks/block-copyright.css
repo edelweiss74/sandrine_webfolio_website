@@ -9,6 +9,10 @@
 #block-copyright .field-body ul li img {
   display: inline-block;
 }
+#block-copyright .field-body ul li a{
+  text-decoration: none;
+  color:black;
+}
 
 
 /* mobile */
@@ -17,7 +21,7 @@
     text-align: center;
   }
   #block-copyright .field-body ul li img {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
 }
 

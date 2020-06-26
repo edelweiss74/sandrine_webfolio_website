@@ -3,10 +3,9 @@
 }
 
 /* passion */
-
 .layout-pasion {
   background-color: rgb(211, 211, 211);
-  padding: 4em;
+  padding: 2.5em;
   margin-bottom: 4em;
 }
 
@@ -15,11 +14,12 @@
   text-align: center;
 }
 
-/* tablette */
-@media screen and (min-width: 640px) and (max-width: 1199px) {
+/* tablette et desktop */
+@media screen and (min-width: 641px)  {
+  .layout-pasion{
+    padding: 4em;
 
+  }
 }
 
-/* desktop */
-@media screen and (min-width: 1200px) {
-}
+

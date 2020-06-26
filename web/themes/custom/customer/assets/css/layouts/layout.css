@@ -4,7 +4,7 @@
 }
 
 .layout .picture-header .layout-header {
-  padding: 3em;
+  padding: 2.5em;
   margin: 0;
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
   -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
@@ -28,6 +28,7 @@
     height: fit-content;
     margin-top: 10em;
     z-index: 1;
+    padding:3em;
   }
 
 }
