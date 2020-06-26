@@ -10,10 +10,14 @@
   border-bottom: none;
 }
 
+.field-project-types li:first-child {
+  border-bottom: 1px solid rgb(250, 74, 93);
+}
+
 /* mobile */
 @media screen and (max-width: 640px) {
   .field-project-types {
-    margin-top: 2em;    
+    margin-top: 2em;
   }
   .field-project-types li{
     font-size: 1rem;
