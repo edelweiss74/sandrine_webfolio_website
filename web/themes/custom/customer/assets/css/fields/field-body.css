@@ -29,6 +29,7 @@
   border-bottom: none;
 }
 
+
 /* desktop */
 @media screen and (min-width: 640px) {
   .layout-content .field-body ul li{
@@ -40,6 +41,9 @@
   .layout-content p{
     font-size: 1rem;
     margin-bottom: 1.5em;
+  }
+  .layout-content-left .field-body ul li:first-child {
+    padding-top: 0em;
   }
 
 }

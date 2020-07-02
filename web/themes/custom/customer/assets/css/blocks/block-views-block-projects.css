@@ -1,0 +1,31 @@
+#block-views-block-projects{
+    justify-content: center;
+}
+#block-views-block-projects .item-list ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+#block-views-block-projects li{    
+    list-style: none;
+}
+#block-views-block-projects img {
+    flex:1 1 auto;
+    width:auto;
+    height:auto;
+    max-width:400px;
+    max-height: 500px;
+    margin:5px;
+    object-fit: cover;
+}
+#block-views-block-projects h2{
+    margin-bottom: 1em;
+}
+#block-views-block-projects .more-link a{
+    text-decoration: none;
+    color:black;
+    
+    
+
+}

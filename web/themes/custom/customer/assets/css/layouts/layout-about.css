@@ -18,8 +18,13 @@
 @media screen and (min-width: 641px)  {
   .layout-pasion{
     padding: 4em;
-
   }
+  
+  /* content */
+.about .layout .layout-content {
+  padding: 2em;
+  margin-bottom: 2em;
+}
 }
 
 

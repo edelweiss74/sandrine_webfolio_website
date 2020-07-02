@@ -30,14 +30,6 @@
     z-index: 1;
     padding:3em;
   }
-
-}
-
-/* content */
-
-.layout .layout-content {
-  padding: 2em;
-  margin-bottom: 2em;
 }
 
 /* tablette et destkop */
@@ -46,12 +38,10 @@
   .layout-content {
     display: flex;
   }
-
   .layout-content .layout-content-left {
     flex: 1;
     padding: 2em;
   }
-
   .layout-content .layout-content-right {
     flex: 1;
     padding: 2em;

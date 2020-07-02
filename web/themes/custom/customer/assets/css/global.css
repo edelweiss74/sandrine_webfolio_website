@@ -22,6 +22,8 @@
 @import "blocks/block-copyright.css";
 @import "blocks/block-socialmedia.css";
 @import "blocks/block-tabs.css";
+@import "blocks/block-views-block-projects.css";
+@import "blocks/block-mainpagecontent.css";
 
 
 /* layout */
