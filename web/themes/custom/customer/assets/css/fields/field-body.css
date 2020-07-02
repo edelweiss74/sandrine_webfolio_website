@@ -13,6 +13,7 @@
   margin-bottom: 1em;
 }
 .layout-content p{
+  font-size: 1.3rem;
   margin-bottom: 1.5em;
 }
 
@@ -34,8 +35,11 @@
     font-size: .9rem;
   }
   .layout-header p {
+    font-size: 1rem;    
+  }
+  .layout-content p{
     font-size: 1rem;
-    
+    margin-bottom: 1.5em;
   }
 
 }

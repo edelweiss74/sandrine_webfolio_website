@@ -15,7 +15,6 @@
 #block-mainmenu ul li {
   list-style: none;
   padding: 0.5em;
-
 }
 
 #block-mainmenu ul li a {
@@ -23,12 +22,11 @@
   color: black;
 }
 
-#block-mainmenu ul li a:active {
+#block-mainmenu ul li a.is-active {
   text-decoration: none;
+  padding-bottom:0.5em;
   color: rgb(250, 74, 93);
+  border-bottom: 2px solid rgb(250, 74, 93);
 }
 
-#block-mainmenu ul li a:visited {
-  text-decoration: none;
-  color: rgb(250, 74, 93);
-}
+
