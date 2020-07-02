@@ -1,0 +1,21 @@
+{% if content %}
+  <article class="project-teaser">
+
+    <div class="layout">
+      
+        {% if content.picture %}
+          <div class="layout-picture">
+            {{ content.picture }}
+          </div>
+        {% endif %}
+
+        {% if content.content %}
+          <div class="layout-content">
+            {{ content.content }}
+          </div>
+        {% endif %}      
+
+    </div>
+  </article>
+
+{% endif %}

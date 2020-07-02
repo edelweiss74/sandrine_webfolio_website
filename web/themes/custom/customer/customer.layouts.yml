@@ -45,4 +45,15 @@ layout-about-default:
     contentsecond:
       label: Content second
     pasion:
-      label: Pasion        
+      label: Pasion
+
+layout-project-teaser:
+  label: Project teaser - Display
+  category: Customer
+  path: templates/layout
+  template: layout-project-teaser
+  regions:
+    picture:
+      label: Picture
+    content:
+      label: Content        
