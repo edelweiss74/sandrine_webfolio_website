@@ -1,11 +1,22 @@
+/* block de fin de page */
 #block-views-block-projects{
-    justify-content: center;
+    margin-bottom: 3em;
+}
+#block-views-block-projects h2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(250, 74, 93);
+    font-size: 2.5rem;
+  margin-bottom: 0.5em;
+}
+#block-views-block-projects .item-list{
+    margin-bottom: 2em;
 }
 #block-views-block-projects .item-list ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
 }
 #block-views-block-projects li{    
     list-style: none;
@@ -19,13 +30,11 @@
     margin:5px;
     object-fit: cover;
 }
-#block-views-block-projects h2{
-    margin-bottom: 1em;
-}
 #block-views-block-projects .more-link a{
     text-decoration: none;
-    color:black;
+    color: rgb(250, 74, 93);
+}
+#block-views-block-projects .more-link{
+    text-align: center;
     
-    
-
 }

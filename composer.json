@@ -26,6 +26,7 @@
         "drupal/mail_login": "^1.1",
         "drupal/robots_noindex_nofollow": "^1.1",
         "drupal/video_embed_field": "^2.4",
+        "drupal/webform": "^5.19",
         "drush/drush": "^10.2"
     },
     "conflict": {

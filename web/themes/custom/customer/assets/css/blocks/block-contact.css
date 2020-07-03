@@ -10,23 +10,19 @@
   padding: 2em;
 
 }
-
 #block-contact .field-body h4 {
   margin-bottom: 1em;
   font-size: 1.5rem;
 }
-
 #block-contact .field-body p {
   margin-bottom: 2em;
 
 }
-
 #block-contact .field-body a {
   color: rgb(250, 74, 93);
   text-decoration: none;
   font-size: 1.4rem;
 }
-
 
 /* desktop */
 @media screen and (min-width: 641px) {

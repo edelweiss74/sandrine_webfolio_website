@@ -24,7 +24,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 2
+    weight: 3
     settings:
       rows: 9
       summary_rows: 3
@@ -32,8 +32,14 @@ content:
       show_summary: false
     third_party_settings: {  }
     region: content
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_body:
-    weight: 7
+    weight: 8
     settings:
       rows: 9
       summary_rows: 3
@@ -43,7 +49,7 @@ content:
     type: text_textarea_with_summary
     region: content
   field_client:
-    weight: 3
+    weight: 4
     settings:
       size: 60
       placeholder: ''
@@ -51,13 +57,13 @@ content:
     type: string_textfield
     region: content
   field_date:
-    weight: 5
+    weight: 6
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_gallery:
-    weight: 27
+    weight: 11
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -65,7 +71,7 @@ content:
     type: image_image
     region: content
   field_picture:
-    weight: 6
+    weight: 7
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -73,7 +79,7 @@ content:
     type: image_image
     region: content
   field_place:
-    weight: 4
+    weight: 5
     settings:
       size: 60
       placeholder: ''
@@ -97,7 +103,7 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 8
+    weight: 9
     region: content
     third_party_settings: {  }
   title:
@@ -109,7 +115,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
-  created: true
   path: true
   promote: true
   sticky: true

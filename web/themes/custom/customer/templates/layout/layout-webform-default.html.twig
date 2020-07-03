@@ -1,0 +1,31 @@
+{% if content %}
+    <section class="page-contact">
+        <div class="left">
+        {% if content.picture %}
+            <div class="layout-picture">
+            {{ content.picture }}
+            </div>
+        {% endif %}
+
+        {% if content.content %}
+            <div class="layout-content">
+            {{ content.content }}
+            </div>
+        {% endif %}
+        </div>        
+        
+        <div class="right">
+            {% if content.header %}
+            <div class="layout-header">
+            {{ content.header }}
+            </div>
+        {% endif %}
+        
+        {% if content.form %}
+            <div class="layout-form">
+            {{ content.form }}
+            </div>
+        {% endif %}
+        </div>
+    </section>
+{% endif %}

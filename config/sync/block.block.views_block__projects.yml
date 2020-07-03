@@ -1,0 +1,39 @@
+uuid: fb6ffc75-2e93-4a84-8a71-d14373b9b3af
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.projects
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - customer
+id: views_block__projects
+theme: customer
+region: list
+weight: 0
+provider: null
+plugin: 'views_block:projects-block_1'
+settings:
+  id: 'views_block:projects-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      about: about
+      homepage: homepage
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/node/3"
+    negate: false
+    context_mapping: {  }

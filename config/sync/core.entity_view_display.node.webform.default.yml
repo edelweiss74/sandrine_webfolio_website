@@ -1,0 +1,97 @@
+uuid: a6e56c8d-7c7f-4cdb-97f1-cffe7f4fe04f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.webform.body
+    - field.field.node.webform.field_explication
+    - field.field.node.webform.field_picture
+    - field.field.node.webform.field_subtitle
+    - field.field.node.webform.webform
+    - node.type.webform
+  module:
+    - ds
+    - image
+    - text
+    - user
+    - webform
+third_party_settings:
+  ds:
+    layout:
+      id: layout-webform-default
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      picture:
+        - field_picture
+      header:
+        - node_title
+        - field_subtitle
+        - body
+      content:
+        - field_explication
+      form:
+        - webform
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: ''
+          class: ''
+          link: false
+_core:
+  default_config_hash: 3r1i0UMUbeNHhvmiqHDYznoS4G9XR1jq6lQ49r80lDE
+id: node.webform.default
+targetEntityType: node
+bundle: webform
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: header
+  field_explication:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    type: text_summary_or_trimmed
+    region: content
+  field_picture:
+    type: image
+    weight: 0
+    region: picture
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_subtitle:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: header
+  webform:
+    weight: 5
+    label: hidden
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: form
+hidden:
+  langcode: true
+  links: true

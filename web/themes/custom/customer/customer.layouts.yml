@@ -56,4 +56,19 @@ layout-project-teaser:
     picture:
       label: Picture
     content:
-      label: Content        
+      label: Content
+
+layout-webform-default:
+  label: webform default - Display
+  category: Customer
+  path: templates/layout
+  template: layout-webform-default
+  regions:
+    picture:
+      label: Picture
+    header:
+      label: Header   
+    content:
+      label: Contact
+    form:
+      label: Formulaire        

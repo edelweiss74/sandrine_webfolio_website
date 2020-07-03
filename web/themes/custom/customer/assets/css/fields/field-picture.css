@@ -1,4 +1,4 @@
-.home .layout .picture-header .layout-picture .field-picture img,
+#block-mainpagecontent .home .layout .picture-header .layout-picture .field-picture img,
 .about .layout .picture-header .layout-picture .field-picture img,
 .project .layout .picture-header .layout-picture .field-picture img {
   width: 100%;
