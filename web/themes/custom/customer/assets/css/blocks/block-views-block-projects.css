@@ -1,40 +1,23 @@
 /* block de fin de page */
-#block-views-block-projects{
+#block-views-block-projects,
+#block-views-block-projects-block-others {
     margin-bottom: 3em;
 }
-#block-views-block-projects h2{
+#block-views-block-projects h2,
+#block-views-block-projects-block-others h2 {
     text-align: center;
     font-family: 'Dancing Script', cursive;
     color: rgb(250, 74, 93);
     font-size: 2.5rem;
   margin-bottom: 0.5em;
 }
-#block-views-block-projects .item-list{
-    margin-bottom: 2em;
+
+#block-views-block-projects .more-link,
+#block-views-block-projects-block-others .more-link {
+  text-align: center;
 }
-#block-views-block-projects .item-list ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-#block-views-block-projects li{    
-    list-style: none;
-}
-#block-views-block-projects img {
-    flex:1 1 auto;
-    width:auto;
-    height:auto;
-    max-width:400px;
-    max-height: 500px;
-    margin:5px;
-    object-fit: cover;
-}
-#block-views-block-projects .more-link a{
+#block-views-block-projects .more-link a,
+#block-views-block-projects-block-others .more-link a {
     text-decoration: none;
     color: rgb(250, 74, 93);
-}
-#block-views-block-projects .more-link{
-    text-align: center;
-    
 }

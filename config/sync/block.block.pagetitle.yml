@@ -1,0 +1,25 @@
+uuid: 7700483d-f844-43be-ab09-6484fe69a737
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - customer
+id: pagetitle
+theme: customer
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /mes-realisations
+    negate: false
+    context_mapping: {  }

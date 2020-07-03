@@ -15,16 +15,15 @@
 }
 
 /* tablette et desktop */
-@media screen and (min-width: 641px)  {
-  .layout-pasion{
+@media screen and (min-width: 641px) {
+  .layout-passion {
     padding: 4em;
   }
-  
   /* content */
-.about .layout .layout-content {
-  padding: 2em;
-  margin-bottom: 2em;
-}
+  .about .layout .layout-content {
+    padding: 2em;
+    margin-bottom: 2em;
+  }
 }
 
 

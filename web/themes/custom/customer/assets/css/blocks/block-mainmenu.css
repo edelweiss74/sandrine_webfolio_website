@@ -7,22 +7,28 @@
   flex: 1;
 }
 
-#block-mainmenu ul {
+@media screen and (max-width: 767px) {
+  #block-mainmenu {
+    display: none;
+  }
+}
+
+#block-mainmenu > ul {
   display: flex;
   justify-content: flex-end;
 }
 
-#block-mainmenu ul li {
+#block-mainmenu > ul li {
   list-style: none;
   padding: 0.5em;
 }
 
-#block-mainmenu ul li a {
+#block-mainmenu > ul li a {
   text-decoration: none;
   color: black;
 }
 
-#block-mainmenu ul li a.is-active {
+#block-mainmenu > ul li a.is-active {
   text-decoration: none;
   padding-bottom:0.5em;
   color: rgb(250, 74, 93);

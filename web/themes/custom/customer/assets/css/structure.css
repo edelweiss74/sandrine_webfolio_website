@@ -32,27 +32,6 @@ p {
   line-height: 1.4em;
 }
 
-/* mobile */
-/* region
-.region-header {
-
-}
-.region-help {
-
-}
-.region-content {
-
-}
-.region-list {
-
-}
-.region-prefooter {
-
-}
-.region-footer {
-
-} */
-
 /* tablette + desktop */
 @media screen and (min-width: 769px) {
   .region {

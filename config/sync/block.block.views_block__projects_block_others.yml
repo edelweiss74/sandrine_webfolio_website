@@ -1,4 +1,4 @@
-uuid: fb6ffc75-2e93-4a84-8a71-d14373b9b3af
+uuid: 1ebc8333-11f4-4898-a65d-82ea1ff2ff1c
 langcode: en
 status: true
 dependencies:
@@ -6,34 +6,27 @@ dependencies:
     - views.view.projects
   module:
     - node
-    - system
     - views
   theme:
     - customer
-id: views_block__projects
+id: views_block__projects_block_others
 theme: customer
 region: list
-weight: -5
+weight: 0
 provider: null
-plugin: 'views_block:projects-block_1'
+plugin: 'views_block:projects-block_others'
 settings:
-  id: 'views_block:projects-block_1'
-  label: ''
+  id: 'views_block:projects-block_others'
+  label: 'Autres réalisations'
   provider: views
   label_display: visible
-  views_label: ''
+  views_label: 'Autres réalisations'
   items_per_page: none
 visibility:
   node_type:
     id: node_type
     bundles:
-      about: about
-      homepage: homepage
+      project: project
     negate: false
     context_mapping:
       node: '@node.node_route_context:node'
-  request_path:
-    id: request_path
-    pages: "<front>\r\n/node/3"
-    negate: false
-    context_mapping: {  }

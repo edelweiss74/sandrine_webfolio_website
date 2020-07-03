@@ -13,23 +13,40 @@
 }
 
 /* tablette et desktop */
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 768px) {
   /* header */
   .layout .picture-header {
     display: flex;
   }
-
   .layout .picture-header .layout-picture {
-    flex: 1;
+    width: 50%;
   }
-
   .layout .picture-header .layout-header {
-    flex: 1;
+    width: 50%;
     height: fit-content;
     margin-top: 10em;
     z-index: 1;
     padding:3em;
   }
+}
+/* tablette et desktop */
+@media screen and (min-width: 1200px) {
+  .layout .picture-header .layout-picture {
+    width: 40%;
+  }
+  .layout .picture-header .layout-header {
+    width: 40%;
+  }
+}
+
+.layout-content .layout-content-left {
+  padding: 2.5em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.layout-content .layout-content-right {
+  padding: 2.5em;
+  padding-top: 0;
 }
 
 /* tablette et destkop */
@@ -40,11 +57,10 @@
   }
   .layout-content .layout-content-left {
     flex: 1;
-    padding: 2em;
+    padding: 2.5em;
   }
   .layout-content .layout-content-right {
     flex: 1;
-    padding: 2em;
+    padding: 2.5em;
   }
-
 }
