@@ -4,11 +4,22 @@
   justify-content: center;
 }
 #block-socialmedia .field-body ul li {
-  margin: 1em;
+  margin: 1em 0.5em;
   flex: 1;
   text-align: center;
 }
 #block-socialmedia .field-body ul li img{
-  width: 2.2em;
+  width: 2.3em;
   height:auto;
+}
+@media screen and (max-width: 640px){
+  #block-socialmedia .field-body ul li {
+    margin: 1em 0;
+    padding:1.5em 0;   
+  }
+  #block-socialmedia .field-body ul li img{
+    width: 3em;
+    height:auto;
+  }
+
 }

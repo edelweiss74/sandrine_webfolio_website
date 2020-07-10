@@ -11,7 +11,7 @@
 }
 
 /* tablette et desktop */
-@media screen and (min-width: 641px) {
+@media screen and (max-width: 641px) {
   .field-title-2 {
     font-size: 3rem;
   }

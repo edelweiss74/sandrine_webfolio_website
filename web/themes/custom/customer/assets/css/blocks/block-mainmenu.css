@@ -26,6 +26,7 @@
 #block-mainmenu > ul li a {
   text-decoration: none;
   color: black;
+  margin:0 1em;
 }
 
 #block-mainmenu > ul li a.is-active {

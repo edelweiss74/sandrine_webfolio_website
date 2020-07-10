@@ -15,9 +15,17 @@
     height: 30vh;
   }
 }
+/* tablette */
+@media screen and (min-width: 641px)and (max-width:1999px){
+  .home .layout .picture-header .layout-picture .field-picture,
+  .about .layout .picture-header .layout-picture .field-picture,
+  .project .layout .picture-header .layout-picture .field-picture {
+    margin: 0 -30%;
+    height: 60vh;
+  }
 
-/* tablette et desktop */
-@media screen and (min-width: 641px) {
+/* desktop */
+@media screen and (min-width: 1200px) {
   .home .layout .picture-header .layout-picture .field-picture,
   .about .layout .picture-header .layout-picture .field-picture,
   .project .layout .picture-header .layout-picture .field-picture {

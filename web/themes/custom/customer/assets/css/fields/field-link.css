@@ -1,7 +1,9 @@
+.field-link{
+  margin-bottom:0.5em;
+}
 .field-link a {
   text-decoration: none;
   color: rgb(250, 74, 93);
-  margin-bottom: 3.5em;
   font-size: 1.4rem;
 }
 
