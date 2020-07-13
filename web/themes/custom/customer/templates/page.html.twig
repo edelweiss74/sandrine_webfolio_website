@@ -1,40 +1,42 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 <div class="wrapper">
 
+  <span id="icon-menu">///</span>
+
   {% if page.header %}
-  <header class="region-header">
-    {{ page.header }}
-  </header>{# /.header #}
+    <header class="region-header">
+      {{ page.header }}
+    </header>{# /.header #}
   {% endif %}
 
   {% if page.help %}
-  <div class="region-help">
-    {{ page.help }}
-  </div>{# /.help #}
+    <div class="region-help">
+      {{ page.help }}
+    </div>{# /.help #}
   {% endif %}
 
   {% if page.content %}
-  <main class="region-content">
-    {{ page.content }}
-  </main>{# /.content #}
+    <main class="region-content">
+      {{ page.content }}
+    </main>{# /.content #}
   {% endif %}
 
   {% if page.list %}
-  <section class="region-list">
-    {{ page.list }}
-  </section>{# /.list #}
+    <section class="region-list">
+      {{ page.list }}
+    </section>{# /.list #}
   {% endif %}
 
   {% if page.prefooter %}
-  <section class="region-prefooter">
-    {{ page.prefooter }}
-  </section>{# /.prefooter #}
+    <section class="region-prefooter">
+      {{ page.prefooter }}
+    </section>{# /.prefooter #}
   {% endif %}
 
   {% if page.footer %}
-  <footer class="region-footer">
-    {{ page.footer }}
-  </footer>{# /.footer #}
+    <footer class="region-footer">
+      {{ page.footer }}
+    </footer>{# /.footer #}
   {% endif %}
 
 </div>{# /.wrapper #}

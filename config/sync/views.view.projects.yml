@@ -146,7 +146,7 @@ display:
           table: views
           field: random
           plugin_id: random
-      title: Réalisations
+      title: 'Mes réalisations'
       header: {  }
       footer: {  }
       empty: {  }

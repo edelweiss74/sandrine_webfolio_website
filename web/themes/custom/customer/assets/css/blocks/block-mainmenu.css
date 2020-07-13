@@ -1,39 +1,55 @@
+
+@media screen and (min-width: 768px){
+  #icon-menu{
+    display:none;
+  }
 .region-header .region {
   display: flex;
   align-items: center;
 }
-
 #block-mainmenu {
   flex: 1;
 }
-
-@media screen and (max-width: 767px) {
-  #block-mainmenu {
-    display: none;
-  }
-}
-
 #block-mainmenu > ul {
   display: flex;
   justify-content: flex-end;
 }
-
 #block-mainmenu > ul li {
   list-style: none;
   padding: 0.5em;
 }
-
 #block-mainmenu > ul li a {
   text-decoration: none;
   color: black;
   margin:0 1em;
 }
-
 #block-mainmenu > ul li a.is-active {
   text-decoration: none;
   padding-bottom:0.5em;
   color: rgb(250, 74, 93);
   border-bottom: 2px solid rgb(250, 74, 93);
 }
+}
 
-
+@media screen and (max-width: 767px){
+#icon-menu{
+  background-color: royalblue;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:5em;
+  height:5em;
+  position: fixed;
+  right: 0;
+  z-index:2000;
+  cursor: pointer;
+}
+#block-mainmenu{
+  display:none;
+  background-color: aqua;    
+  }
+#block-mainmenu.menumobile {
+  display:block;   
+  
+}
+}
