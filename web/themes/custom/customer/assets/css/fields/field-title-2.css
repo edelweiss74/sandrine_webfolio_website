@@ -1,18 +1,17 @@
 .field-title-2 {
   font-family: 'Dancing Script', cursive;
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 0.5em;
   color: rgb(250, 74, 93);
   text-align: center;
+ 
 }
 
-.layout-title .field-title-2 {
+/* mobile */
+@media screen and (min-width: 641px) {
+.field-title-2 {
+  font-size: 2.5rem;
   margin-top: 2em;
-}
-
-/* tablette et desktop */
-@media screen and (max-width: 641px) {
-  .field-title-2 {
-    font-size: 3rem;
+    
   }
 }

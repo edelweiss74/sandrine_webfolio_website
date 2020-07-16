@@ -44,10 +44,10 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .left .layout-content {
+.left .layout-content {
     padding: 10em;
   }
-  .left .layout-picture .field-picture {
+.left .layout-picture .field-picture {
     margin-left: -30%;
     background-position: center;
     background-size: cover;
