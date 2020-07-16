@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.about.field_body
     - field.field.node.about.field_body2
     - field.field.node.about.field_field_body
+    - field.field.node.about.field_file
     - field.field.node.about.field_link
     - field.field.node.about.field_metatag
     - field.field.node.about.field_picture
@@ -15,8 +16,8 @@ dependencies:
     - node.type.about
   module:
     - ds
+    - file
     - image
-    - link
     - text
     - user
 third_party_settings:
@@ -35,7 +36,7 @@ third_party_settings:
         - node_title
         - field_subtitle
         - body
-        - field_link
+        - field_file
       content:
         - field_field_body
       contentsecond:
@@ -78,18 +79,14 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-  field_link:
+  field_file:
+    type: file_default
     weight: 4
+    region: header
     label: hidden
     settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
+      use_description_as_link_text: true
     third_party_settings: {  }
-    type: link
-    region: header
   field_picture:
     weight: 0
     label: hidden
@@ -119,6 +116,7 @@ content:
     region: header
 hidden:
   field_body: true
+  field_link: true
   field_metatag: true
   langcode: true
   links: true
