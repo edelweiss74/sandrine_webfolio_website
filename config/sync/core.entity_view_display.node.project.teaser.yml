@@ -13,6 +13,7 @@ dependencies:
     - field.field.node.project.field_picture
     - field.field.node.project.field_place
     - field.field.node.project.field_project_types
+    - field.field.node.project.field_video
     - node.type.project
   module:
     - ds
@@ -77,5 +78,6 @@ hidden:
   field_metatag: true
   field_place: true
   field_project_types: true
+  field_video: true
   langcode: true
   links: true

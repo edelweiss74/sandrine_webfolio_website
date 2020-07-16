@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.project.field_picture
     - field.field.node.project.field_place
     - field.field.node.project.field_project_types
+    - field.field.node.project.field_video
     - image.style.thumbnail
     - node.type.project
   module:
@@ -20,6 +21,7 @@ dependencies:
     - metatag
     - path
     - text
+    - video_embed_field
 id: node.project.default
 targetEntityType: node
 bundle: project
@@ -27,7 +29,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 3
+    weight: 2
     settings:
       rows: 9
       summary_rows: 3
@@ -42,7 +44,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_body:
-    weight: 8
+    weight: 7
     settings:
       rows: 9
       summary_rows: 3
@@ -52,7 +54,7 @@ content:
     type: text_textarea_with_summary
     region: content
   field_client:
-    weight: 4
+    weight: 3
     settings:
       size: 60
       placeholder: ''
@@ -60,13 +62,13 @@ content:
     type: string_textfield
     region: content
   field_date:
-    weight: 6
+    weight: 5
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_gallery:
-    weight: 11
+    weight: 9
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -74,14 +76,14 @@ content:
     type: image_image
     region: content
   field_metatag:
-    weight: 12
+    weight: 13
     settings:
       sidebar: true
     third_party_settings: {  }
     type: metatag_firehose
     region: content
   field_picture:
-    weight: 7
+    weight: 6
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -89,7 +91,7 @@ content:
     type: image_image
     region: content
   field_place:
-    weight: 5
+    weight: 4
     settings:
       size: 60
       placeholder: ''
@@ -102,16 +104,22 @@ content:
     third_party_settings: {  }
     type: options_buttons
     region: content
+  field_video:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: video_embed_field_textfield
+    region: content
   langcode:
     type: language_select
-    weight: 2
+    weight: 15
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 13
+    weight: 11
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -119,7 +127,7 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 9
+    weight: 14
     region: content
     third_party_settings: {  }
   title:
@@ -131,10 +139,10 @@ content:
       placeholder: ''
     third_party_settings: {  }
   url_redirects:
-    weight: 50
+    weight: 12
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   promote: true
   sticky: true
