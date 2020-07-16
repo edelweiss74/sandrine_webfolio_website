@@ -1,0 +1,16 @@
+.basic .layout-content{
+    flex-direction: column;
+}
+.basic h1{
+    margin-bottom: 0.75em;
+}
+.basic h2{
+    color:black;
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+}
+
+.basic h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+}

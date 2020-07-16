@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.about.field_body2
     - field.field.node.about.field_field_body
     - field.field.node.about.field_link
+    - field.field.node.about.field_metatag
     - field.field.node.about.field_picture
     - field.field.node.about.field_project_types
     - field.field.node.about.field_subtitle
@@ -118,5 +119,6 @@ content:
     region: header
 hidden:
   field_body: true
+  field_metatag: true
   langcode: true
   links: true

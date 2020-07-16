@@ -3,8 +3,8 @@ name: 'Sandrine Hennebert'
 mail: shennebert979@gmail.com
 slogan: 'Graphiste - designer web'
 page:
-  403: ''
-  404: ''
+  403: /node/13
+  404: /node/12
   front: /node/2
 admin_compact_mode: false
 weight_select_max: 100

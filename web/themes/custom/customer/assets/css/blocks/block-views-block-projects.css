@@ -6,11 +6,12 @@
 }
 #block-views-block-projects h2,
 #block-views-block-projects-block-others h2 {
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    color: rgb(250, 74, 93);
-    font-size: 2.5rem;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(250, 74, 93);
+  font-size: 2.5rem;
   margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 #block-views-block-projects .more-link,

@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.project.field_client
     - field.field.node.project.field_date
     - field.field.node.project.field_gallery
+    - field.field.node.project.field_metatag
     - field.field.node.project.field_picture
     - field.field.node.project.field_place
     - field.field.node.project.field_project_types
@@ -72,6 +73,7 @@ hidden:
   field_client: true
   field_date: true
   field_gallery: true
+  field_metatag: true
   field_place: true
   field_project_types: true
   langcode: true

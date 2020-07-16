@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.about.field_body2
     - field.field.node.about.field_field_body
     - field.field.node.about.field_link
+    - field.field.node.about.field_metatag
     - field.field.node.about.field_picture
     - field.field.node.about.field_project_types
     - field.field.node.about.field_subtitle
@@ -39,6 +40,7 @@ hidden:
   field_body2: true
   field_field_body: true
   field_link: true
+  field_metatag: true
   field_picture: true
   field_project_types: true
   field_subtitle: true

@@ -1,0 +1,8 @@
+uuid: b943cc46-ebc3-41b7-b6bb-28b62436feb6
+langcode: en
+status: true
+dependencies: {  }
+id: g3XYqcXbSKPVBDODwnT6pq7oqhCFkPryj4vVqrl_Kfc
+label: 'http://localhost/sandrine_webfolio_website/web/en'
+context:
+  language: en

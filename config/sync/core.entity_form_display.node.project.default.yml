@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.project.field_client
     - field.field.node.project.field_date
     - field.field.node.project.field_gallery
+    - field.field.node.project.field_metatag
     - field.field.node.project.field_picture
     - field.field.node.project.field_place
     - field.field.node.project.field_project_types
@@ -16,6 +17,8 @@ dependencies:
   module:
     - datetime
     - image
+    - metatag
+    - path
     - text
 id: node.project.default
 targetEntityType: node
@@ -70,6 +73,13 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
+  field_metatag:
+    weight: 12
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
   field_picture:
     weight: 7
     settings:
@@ -99,6 +109,12 @@ content:
     settings:
       include_locked: true
     third_party_settings: {  }
+  path:
+    type: path
+    weight: 13
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
@@ -115,7 +131,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
-  path: true
   promote: true
   sticky: true
   uid: true

@@ -71,4 +71,14 @@ layout-webform-default:
     content:
       label: Contact
     form:
-      label: Formulaire        
+      label: Formulaire  
+
+layout-basic-default:
+  label: basic default - Display
+  category: Customer
+  path: templates/layout
+  template: layout-basic-default
+  regions:
+    content:
+      label: Content
+         

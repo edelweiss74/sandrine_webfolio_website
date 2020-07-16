@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.about.field_body2
     - field.field.node.about.field_field_body
     - field.field.node.about.field_link
+    - field.field.node.about.field_metatag
     - field.field.node.about.field_picture
     - field.field.node.about.field_project_types
     - field.field.node.about.field_subtitle
@@ -16,6 +17,7 @@ dependencies:
   module:
     - image
     - link
+    - metatag
     - path
     - text
 id: node.about.default
@@ -60,6 +62,13 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
+  field_metatag:
+    weight: 26
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   field_picture:
     weight: 0

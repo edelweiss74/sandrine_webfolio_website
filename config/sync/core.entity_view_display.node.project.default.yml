@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.project.field_client
     - field.field.node.project.field_date
     - field.field.node.project.field_gallery
+    - field.field.node.project.field_metatag
     - field.field.node.project.field_picture
     - field.field.node.project.field_place
     - field.field.node.project.field_project_types
@@ -16,6 +17,7 @@ dependencies:
     - datetime
     - ds
     - image
+    - metatag
     - text
     - user
 third_party_settings:
@@ -80,6 +82,13 @@ content:
     third_party_settings: {  }
     type: image
     region: gallery
+  field_metatag:
+    weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
   field_picture:
     weight: 0
     label: hidden

@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.homepage.field_body3
     - field.field.node.homepage.field_link
     - field.field.node.homepage.field_link2
+    - field.field.node.homepage.field_metatag
     - field.field.node.homepage.field_picture
     - field.field.node.homepage.field_subtitle
     - image.style.thumbnail
@@ -14,6 +15,7 @@ dependencies:
   module:
     - image
     - link
+    - metatag
     - path
     - text
 id: node.homepage.default
@@ -39,6 +41,13 @@ content:
     third_party_settings: {  }
     type: link_default
     region: content
+  field_metatag:
+    weight: 6
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
   field_picture:
     weight: 2
     settings:
@@ -57,7 +66,7 @@ content:
     region: content
   path:
     type: path
-    weight: 5
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -65,7 +74,7 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 6
+    weight: 5
     region: content
     third_party_settings: {  }
   title:

@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.homepage.field_body3
     - field.field.node.homepage.field_link
     - field.field.node.homepage.field_link2
+    - field.field.node.homepage.field_metatag
     - field.field.node.homepage.field_picture
     - field.field.node.homepage.field_subtitle
     - node.type.homepage
@@ -36,6 +37,7 @@ hidden:
   field_body3: true
   field_link: true
   field_link2: true
+  field_metatag: true
   field_picture: true
   field_subtitle: true
   langcode: true

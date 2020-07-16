@@ -15,6 +15,7 @@ module:
   config_translation: 0
   contact: 0
   contextual: 0
+  ctools: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
@@ -23,6 +24,7 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  google_analytics: 0
   help: 0
   history: 0
   image: 0
@@ -33,6 +35,7 @@ module:
   locale: 0
   mail_login: 0
   menu_ui: 0
+  metatag: 0
   node: 0
   options: 0
   page_cache: 0
@@ -40,12 +43,14 @@ module:
   path_alias: 0
   quickedit: 0
   rdf: 0
+  redirect: 0
   robots_noindex_nofollow: 0
   search: 0
   shortcut: 0
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   update: 0
@@ -59,6 +64,8 @@ module:
   webform_ui: 0
   ds: 1
   menu_link_content: 1
+  pathauto: 1
+  xmlsitemap: 1
   content_translation: 10
   views: 10
   standard: 1000

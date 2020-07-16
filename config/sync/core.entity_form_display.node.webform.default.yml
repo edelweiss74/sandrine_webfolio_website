@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.webform.body
     - field.field.node.webform.field_explication
+    - field.field.node.webform.field_metatag
     - field.field.node.webform.field_picture
     - field.field.node.webform.field_subtitle
     - field.field.node.webform.webform
@@ -12,6 +13,7 @@ dependencies:
     - node.type.webform
   module:
     - image
+    - metatag
     - path
     - text
     - webform
@@ -39,7 +41,7 @@ content:
     third_party_settings: {  }
     region: content
   field_explication:
-    weight: 12
+    weight: 11
     settings:
       rows: 9
       summary_rows: 3
@@ -48,8 +50,15 @@ content:
     third_party_settings: {  }
     type: text_textarea_with_summary
     region: content
+  field_metatag:
+    weight: 12
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
   field_picture:
-    weight: 11
+    weight: 10
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -73,7 +82,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 9
+    weight: 13
     settings: {  }
     third_party_settings: {  }
     region: content
@@ -88,7 +97,7 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 10
+    weight: 9
     region: content
     third_party_settings: {  }
   sticky:

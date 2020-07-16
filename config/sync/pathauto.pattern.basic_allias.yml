@@ -1,0 +1,37 @@
+uuid: 9aa1ad1e-3c22-4e69-b3e3-b1c3c77a50e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: basic_allias
+label: 'Basic allias'
+type: 'canonical_entities:node'
+pattern: '/[node:title]'
+selection_criteria:
+  b484ea63-2e43-4e98-ad4e-4e7bb8d91f7a:
+    id: node_type
+    bundles:
+      about: about
+      homepage: homepage
+      page: page
+      webform: webform
+    negate: false
+    context_mapping:
+      node: node
+    uuid: b484ea63-2e43-4e98-ad4e-4e7bb8d91f7a
+  4b0b1371-71ad-4483-9058-6a4b81f1adcf:
+    id: language
+    langcodes:
+      en: en
+      fr: fr
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: 4b0b1371-71ad-4483-9058-6a4b81f1adcf
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

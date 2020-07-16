@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.webform.body
     - field.field.node.webform.field_explication
+    - field.field.node.webform.field_metatag
     - field.field.node.webform.field_picture
     - field.field.node.webform.field_subtitle
     - field.field.node.webform.webform
@@ -93,5 +94,6 @@ content:
     type: webform_entity_reference_entity_view
     region: form
 hidden:
+  field_metatag: true
   langcode: true
   links: true
