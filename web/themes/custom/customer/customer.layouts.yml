@@ -9,9 +9,9 @@ layout-homepage-default:
     header:
       label: Header
     content:
-      label: Content 
-    
-    
+      label: Content
+
+
 
 layout-project-default:
   label: Project default - Display
@@ -29,7 +29,7 @@ layout-project-default:
       label: Content second
     gallery:
       label: Gallery
-      
+
 layout-about-default:
   label: About default - Display
   category: Customer
@@ -57,6 +57,8 @@ layout-project-teaser:
       label: Picture
     content:
       label: Content
+    link:
+      label: Link
 
 layout-webform-default:
   label: webform default - Display
@@ -67,11 +69,11 @@ layout-webform-default:
     picture:
       label: Picture
     header:
-      label: Header   
+      label: Header
     content:
       label: Contact
     form:
-      label: Formulaire  
+      label: Formulaire
 
 layout-basic-default:
   label: basic default - Display
@@ -81,4 +83,4 @@ layout-basic-default:
   regions:
     content:
       label: Content
-         
+

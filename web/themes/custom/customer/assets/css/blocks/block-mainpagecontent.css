@@ -1,48 +1,15 @@
+/* ************************************** LIST */
 .list-projects {
-  display:flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 1em;
 }
+
 .list-projects li {
-  list-style: none;  
+  list-style: none;
   padding: 1em;
-}
-.project-teaser .layout {
-  position: relative;
-}
-.project-teaser .layout-content h1 {
-  color: white;
-  font-size: 1.5rem;
-  margin-bottom: 0.5em;
-  padding-bottom: 0.5em;;
-  border-bottom: 2px solid ;
-}
-.project-teaser .layout-content a {
-  color: white;
-  text-decoration: none;
-}
-.project-teaser .layout {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-}
-.project-teaser .layout-picture,
-.project-teaser .layout-content {
-  grid-column: 1;
-  grid-row: 1;
-}
-.project-teaser .layout-content { 
-  opacity:0; 
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 1em;
-}
-.project-teaser .layout .layout-content:hover{
-  opacity:1;
-  background-color:  rgba(250, 74, 93,0.3);  
 }
 
 @media screen and (min-width: 768px) {
@@ -57,3 +24,62 @@
   }
 }
 
+/* ************************************** TEASER */
+
+.project-teaser .layout {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.project-teaser .layout-picture,
+.project-teaser .layout-content {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.project-teaser .layout-content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  background-color: rgba(250, 74, 93, 0.3);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.project-teaser:hover .layout .layout-content {
+  opacity: 1;
+}
+
+.project-teaser .layout-picture img {
+  display: block;
+}
+
+.project-teaser .layout-content h1 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;;
+  border-bottom: 2px solid;
+}
+
+.project-teaser .field-node-link a {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transition: all .3s ease-in-out 0s;
+  color: transparent;
+}
+
+.project-teaser:hover .field-node-link a {
+  color: white;
+}
