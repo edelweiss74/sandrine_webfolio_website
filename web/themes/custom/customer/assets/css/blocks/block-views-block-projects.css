@@ -20,6 +20,10 @@
 }
 #block-views-block-projects .more-link a,
 #block-views-block-projects-block-others .more-link a {
-    text-decoration: none;
-    color: rgb(250, 74, 93);
+  text-decoration: none;
+  color: rgb(250, 74, 93);
+  padding:1em; 
+  border: 1px solid rgb(250,74,93); 
+ 
 }
+
