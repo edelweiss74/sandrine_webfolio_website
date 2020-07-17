@@ -19,10 +19,38 @@
 
 }
 #block-contact .field-body a {
-  color: rgb(250, 74, 93);
   text-decoration: none;
-  font-size: 1.4rem;
+  color: rgb(250, 74, 93);
+  border: 1px solid rgb(250, 74, 93);
+  border-radius: 3em;
+  padding: 1em;
+  display: inline-flex;
+  align-items: center;
 }
+#block-contact .field-body a:after{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: ">";
+  color: white;
+  height: 2em;
+  width: 0;
+  opacity: 0;
+  border-radius: 100%;
+  background-color: rgb(250, 74, 93);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+#block-contact .field-body a:hover:after{
+  width: 2em;
+  opacity: 1;
+  margin-left: 1em;
+}
+
 
 /* desktop */
 @media screen and (min-width: 641px) {
