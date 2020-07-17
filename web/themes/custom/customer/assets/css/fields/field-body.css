@@ -8,6 +8,10 @@
   font-size: 2rem;
 }
 
+.field-body a {
+  color: rgb(250, 74, 93);
+}
+
 .layout-header p {
   font-size: 1.3rem;
   margin-bottom: 1em;
@@ -36,7 +40,7 @@
     font-size: .9rem;
   }
   .layout-header p {
-    font-size: 1rem;    
+    font-size: 1rem;
   }
   .layout-content p{
     font-size: 1rem;

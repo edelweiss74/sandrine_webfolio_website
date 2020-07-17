@@ -8,6 +8,8 @@
 
 #block-copyright .field-body ul li img {
   display: inline-block;
+  width: 4em;
+  height: auto;
 }
 #block-copyright .field-body ul li a{
   text-decoration: none;

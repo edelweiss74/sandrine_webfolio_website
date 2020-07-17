@@ -1,16 +1,19 @@
 .field-title-2 {
   font-family: 'Dancing Script', cursive;
   font-size: 3rem;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
   color: rgb(250, 74, 93);
   text-align: center;
- 
+}
+
+.layout-pasion .field-title-2 {
+  margin-bottom: .5em;
 }
 
 /* mobile */
 @media screen and (min-width: 641px) {
 .field-title-2 {
   font-size: 2.5rem;
-      
+
   }
 }

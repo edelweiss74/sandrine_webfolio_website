@@ -37,6 +37,7 @@
   }
   .layout .picture-header {
     display: flex;
+    align-items: center;
   }
   .layout .picture-header .layout-picture {
     width: 50%;
@@ -44,7 +45,6 @@
   .layout .picture-header .layout-header {
     width: 50%;
     height: fit-content;
-    margin-top: 10em;
     z-index: 1;
     padding:3em;
   }

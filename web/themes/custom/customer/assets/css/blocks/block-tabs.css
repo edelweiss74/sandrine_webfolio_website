@@ -1,5 +1,6 @@
 #block-tabs {
-  border-bottom: 1em black;
+  border-bottom: 1px solid black;
+  margin-bottom: 2em;
 }
 
 #block-tabs > ul {
@@ -8,20 +9,20 @@
   justify-content: center;
 
 }
-
+#block-tabs > ul li {
+  margin-right: 1px;
+}
 #block-tabs > ul li a {
   text-decoration: none;
   color:black;
   display: block;
-  padding: 0.5em;
+  padding: 1em;
   background-color: rgba(250, 74, 93, 0.2);
-  margin: 0.5em;
-
 }
 
 #block-tabs > ul li a.is-active {
-  color: rgb(250, 74, 93);
-  background-color: white;
+  color: white;
+  background-color: rgba(250, 74, 93, 1);
 }
 
 

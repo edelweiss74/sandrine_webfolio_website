@@ -12,6 +12,10 @@
   padding: 1em;
 }
 
+.list-projects li img {
+  filter: grayscale(1);
+}
+
 @media screen and (min-width: 768px) {
   .list-projects li {
     width: 50%;
@@ -19,6 +23,12 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .list-projects {
+    padding: 0 15%;
+  }
+  .region-list #block-views-block-projects-block-others .list-projects {
+    padding: 0;
+  }
   .region-list #block-views-block-projects-block-others .list-projects li {
     width: 25%;
   }
@@ -47,6 +57,7 @@
   background-color: rgba(250, 74, 93, 0.3);
   opacity: 0;
   transition: all .3s ease-in-out 0s;
+  z-index: 2;
 }
 
 .project-teaser:hover .layout .layout-content {
@@ -78,6 +89,7 @@
   justify-content: center;
   transition: all .3s ease-in-out 0s;
   color: transparent;
+  z-index: 3;
 }
 
 .project-teaser:hover .field-node-link a {

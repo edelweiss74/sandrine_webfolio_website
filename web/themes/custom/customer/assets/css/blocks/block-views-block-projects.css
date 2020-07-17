@@ -1,9 +1,10 @@
 /* block de fin de page */
 #block-views-block-projects,
 #block-views-block-projects-block-others {
-    margin-bottom: 4em;
-    
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
+
 #block-views-block-projects h2,
 #block-views-block-projects-block-others h2 {
   text-align: center;
@@ -11,19 +12,46 @@
   color: rgb(250, 74, 93);
   font-size: 2.5rem;
   margin-bottom: 0.5em;
-  margin-top: 0.5em;
 }
 
 #block-views-block-projects .more-link,
 #block-views-block-projects-block-others .more-link {
   text-align: center;
 }
+
 #block-views-block-projects .more-link a,
 #block-views-block-projects-block-others .more-link a {
   text-decoration: none;
   color: rgb(250, 74, 93);
-  padding:1em; 
-  border: 1px solid rgb(250,74,93); 
- 
+  border: 1px solid rgb(250, 74, 93);
+  border-radius: 3em;
+  padding: 1em;
+  display: inline-flex;
+  align-items: center;
 }
 
+#block-views-block-projects .more-link a:after,
+#block-views-block-projects-block-others .more-link a:after {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: ">";
+  color: white;
+  height: 2em;
+  width: 0;
+  opacity: 0;
+  border-radius: 100%;
+  background-color: rgb(250, 74, 93);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+#block-views-block-projects .more-link a:hover:after,
+#block-views-block-projects-block-others .more-link a:hover:after {
+  width: 2em;
+  opacity: 1;
+  margin-left: 1em;
+}

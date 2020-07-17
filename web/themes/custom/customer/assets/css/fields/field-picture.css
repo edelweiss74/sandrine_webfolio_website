@@ -15,21 +15,23 @@
     height: 30vh;
   }
 }
+
 /* tablette */
-@media screen and (min-width: 641px)and (max-width:1999px){
+@media screen and (min-width: 641px)and (max-width: 1999px) {
   .home .layout .picture-header .layout-picture .field-picture,
   .about .layout .picture-header .layout-picture .field-picture,
   .project .layout .picture-header .layout-picture .field-picture {
-    margin: 0 -30%;
+    margin: 0 -10vw;
     height: 60vh;
   }
+}
 
 /* desktop */
 @media screen and (min-width: 1200px) {
   .home .layout .picture-header .layout-picture .field-picture,
   .about .layout .picture-header .layout-picture .field-picture,
   .project .layout .picture-header .layout-picture .field-picture {
-    margin: 0 -30%;
-    height: 80vh;
+    margin: 0 -10vw;
+    height: 70vh;
   }
 }

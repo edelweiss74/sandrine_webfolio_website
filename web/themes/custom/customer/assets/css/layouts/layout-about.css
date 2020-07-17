@@ -4,8 +4,9 @@
 
 /* passion */
 .layout-pasion {
-  background-color: rgb(211, 211, 211);
+  background-color: rgba(250, 74, 93, .1);
   padding: 2.5em;
+  margin-top: 2em;
   margin-bottom: 4em;
 }
 

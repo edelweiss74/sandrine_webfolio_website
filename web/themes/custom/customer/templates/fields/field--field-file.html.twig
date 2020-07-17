@@ -1,1 +1,9 @@
-drush cex
+<ul class="field-files">
+  {% for item in items %}
+    <li>
+      <a href="{{ file_url(item.content["#file"].uri.value) }}" target="_blank" title="{{ item.content["#description"] }}">
+        {{ item.content["#description"]|default(item.content["#file"].filename.value) }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
