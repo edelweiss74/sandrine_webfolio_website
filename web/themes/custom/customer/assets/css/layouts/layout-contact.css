@@ -45,7 +45,7 @@
 
 @media screen and (min-width: 1200px) {
 .left .layout-content {
-    padding: 10em;
+    padding: 8em;
   }
 .left .layout-picture .field-picture {
     margin-left: -10vw;
@@ -56,11 +56,13 @@
 }
 .left .layout-content h3 {
   font-family: 'Oswald', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  
   }
 .left .layout-content h4 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2rem;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.4rem;
+  color:rgb(250, 74, 93);
   margin:1em 0;
 }
 

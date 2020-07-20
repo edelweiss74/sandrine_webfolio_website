@@ -14,6 +14,8 @@
 @import "fields/field-subtitle.css";
 @import "fields/field-link.css";
 @import "fields/field-project-types.css";
+@import "fields/field-video.css";
+@import "fields/field-files.css";
 
 /* blocks */
 @import "blocks/block-branding.css";
