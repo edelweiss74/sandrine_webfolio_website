@@ -1,8 +1,10 @@
 .field-files li{
     list-style: none;
+    padding-bottom: 0.5em;
 }
 
 .field-files li a{
     text-decoration: none;
     color: rgb(250,74,93);
+    
 }
